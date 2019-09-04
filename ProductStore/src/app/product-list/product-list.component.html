@@ -5,6 +5,7 @@
     <h3>{{product.name}}</h3>
     <p *ngIf="product.description">
         {{product.description}}
-    </p> 
+    </p>
+    <button (click)="addSelectedProductToCart(product)">+</button>
 </div>
 </div>
