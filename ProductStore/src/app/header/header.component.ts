@@ -9,7 +9,7 @@ export class HeaderComponent implements OnInit {
 
   constructor() { }
 
-  @Input() selectedProduct;
+
 
   ngOnInit() {
     //console.log("Received: ", this.selectedProduct);

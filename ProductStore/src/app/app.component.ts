@@ -9,7 +9,7 @@ export class AppComponent {
  selectedProduct: any="";
 
   addProductToCart(product){
-    console.log("In Parent: ",product);
+    console.log("In App component Parent: ",product);
     this.selectedProduct = product;
   }
 }
